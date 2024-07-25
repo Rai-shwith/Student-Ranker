@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
-    <title>Document</title>
+    <title>Student Ranker</title>
 </head>
-<body>
-    
+
+<body class="flex justify-center bg-slate-100 w-screen">
+    <header class="text-3xl font-bold mt-3">Student Ranker</header>
+    <main class="absolute flex flex-col items-center w-10/12 max-w-xl p-5 rounded-xl bg-slate-300 top-72">
+        <h2 class="text-xl font-semibold text-slate-500">Enter the Student Info</h2>
+        <div class="flex flex-col my-3 mainForm">
+            <div class="flex justify-evenly px-3 text-slate-600">
+                <h3>Student Name</h3>
+                <h3>Student Marks</h3>
+            </div>
+            <form class="w-full subForm">
+                <div class="flex justify-evenly w-full gap-2 my-2 inputFields overflow-clip">
+                    <input type="text" placeholder="Name" required class="h-8 rounded indent-4 studentName w-5/12">
+                    <input type="number" placeholder="Marks" required min="0"
+                        class="h-8 rounded indent-4 studentMarks w-5/12">
+                </div>
+            </form>
+            <div class="flex justify-between my-3 actionButtons transform scale-90">
+                <div
+                    class="grid px-2 rounded-lg btnSubmit bg-slate-200 place-items-center textsl500 active:bg-slate-400 arrange">
+                    Arrange</div>
+                <div class="p-1 rounded-lg btnAdd bg-slate-200 active:bg-slate-400 addMore">
+                    <img src="assets/images/addIcon.png" alt="Add icon image" srcset="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
+
