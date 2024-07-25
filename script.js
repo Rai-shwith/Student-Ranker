@@ -38,7 +38,7 @@ arrange.addEventListener('click', () => {
 
 function getRankersList(unsortedStudentInfo) {
     sortedStudentInfo = [...unsortedStudentInfo]
-    sortedStudentInfo.sort((a, b) => a[1] - b[1])
+    sortedStudentInfo.sort((a, b) => b[1] - a[1])
     return sortedStudentInfo;
 }
 
