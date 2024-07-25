@@ -4,7 +4,8 @@
   "description": "This is my first project to help people. My aunt once asked me to help her in sorting the names of her students based on their marks. She's a teacher, so I thought of making a web app to assist her.",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
