@@ -16,7 +16,7 @@ let subFormHTMLString = `
                         class="h-8 rounded indent-4 studentMarks w-5/12 bg-slate-400 focus:outline-none placeholder:text-slate-300">
                 </div>
                 <div class="cancelbtn bg-slate-400 cursor-pointer active:scale-125 rounded p-0.5" onclick="removeField(this)">
-                    <img src="/assets/images/cancel.svg" alt="" srcset="">
+                    <img src="assets/images/cancel.svg" alt="" srcset="">
                 </div>
             `;
 
