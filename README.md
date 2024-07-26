@@ -33,7 +33,10 @@ Feedback is welcome! Please provide your feedback on [GitHub](https://github.com
 No license.
 
 ##### Screenshots:
-![Screenshot Placeholder](#) *(Screenshots will be updated after the project is complete)*
+![Desktop Entering info](./assets/screenshots/desktopEntry.PNG) 
+![Mobile Entering info](./assets/screenshots/mobileEntry.PNG) 
+![Desktop sorted](./assets/screenshots/desktopSorted.PNG) 
+![Mobile sorted](./assets/screenshots/mobileSorted.PNG) 
 
 ##### Contact Information:
 
