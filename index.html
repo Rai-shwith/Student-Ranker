@@ -5,31 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
-    <link rel="stylesheet" href="dist/assets/index-BQQuGk6x.css">
     <title>Student Ranker</title>
 </head>
 
-<body class="flex justify-center bg-slate-100 w-screen">
-    <header class="text-3xl font-bold mt-3">Student Ranker</header>
-    <main class="absolute flex flex-col items-center w-10/12 max-w-xl p-5 rounded-xl bg-slate-300 top-72">
-        <h2 class="text-xl font-semibold text-slate-500">Enter the Student Info</h2>
+<body class="flex justify-center bg-slate-800 w-screen">
+    <header class="text-3xl font-bold mt-3 text-white">Student Ranker</header>
+    <main class="absolute flex flex-col items-center w-10/12 max-w-xl p-5 rounded-xl bg-slate-500 top-[30vh]">
+        <h2 class="text-xl font-semibold text-slate-100">Enter the Student Info</h2>
         <div class="flex flex-col my-3 mainForm">
-            <div class="flex justify-evenly px-3 text-slate-600">
+            <div class="flex justify-evenly px-3 text-slate-200">
                 <h3>Student Name</h3>
                 <h3>Student Marks</h3>
             </div>
-            <form class="w-full subForm">
-                <div class="flex justify-evenly w-full gap-2 my-2 inputFields overflow-clip">
-                    <input type="text" placeholder="Name" required class="h-8 rounded indent-4 studentName w-5/12">
+            <form class="w-full subForm flex items-center"> 
+                <div class="flex justify-evenly w-full gap-2 my-2 inputFields overflow-clip text-slate-900 font-medium">
+                    <input type="text" placeholder="Name" required class="h-8 rounded indent-4 studentName w-5/12 bg-slate-400 focus:outline-none placeholder:text-slate-300">
                     <input type="number" placeholder="Marks" required min="0"
-                        class="h-8 rounded indent-4 studentMarks w-5/12">
+                        class="h-8 rounded indent-4 studentMarks w-5/12 bg-slate-400 focus:outline-none placeholder:text-slate-300">
+                </div>
+                <div class="cancelbtn bg-slate-400 cursor-pointer rounded p-0.5 invisible" >
+                    <img src="/assets/images/cancel.svg" alt="" srcset="">
                 </div>
             </form>
             <div class="flex justify-between my-3 actionButtons transform scale-90">
                 <div
-                    class="grid px-2 rounded-lg btnSubmit bg-slate-200 place-items-center textsl500 active:bg-slate-400 arrange">
+                    class="cursor-pointer active:scale-125 grid px-2 rounded-lg btnSubmit bg-slate-400 place-items-center text-slate-100 active:bg-slate-200 arrange">
                     Arrange</div>
-                <div class="p-1 rounded-lg btnAdd bg-slate-200 active:bg-slate-400 addMore">
+                <div class="cursor-pointer active:scale-125 p-1 rounded-lg btnAdd bg-slate-400 active:bg-slate-400 addMore">
                     <img src="assets/images/addIcon.png" alt="Add icon image" srcset="">
                 </div>
             </div>
