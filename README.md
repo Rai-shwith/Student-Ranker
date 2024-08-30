@@ -24,7 +24,7 @@ This is my first project to help people. My aunt once asked me to help her in so
 3. At the end, submit to get a sorted student list.
 
 ##### Usage:
-Open the link to the page: [GitHub Page URL]
+Open the link to the page: [https://rai-shwith.github.io/Student-Ranker/]
 
 ##### Contributing:
 Feedback is welcome! Please provide your feedback on [GitHub](https://github.com/Rai-shwith).
